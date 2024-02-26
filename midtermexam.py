@@ -74,19 +74,6 @@ while True:
     print (s[start: end])
     start = end
 
-#Question 9
-import datetime
-today = datetime.date.today()
-start_of_year = datetime.date(today.year, 1, 1)
-day_of_year = (today - start_of_year).days + 1
-
-sum = 0
-for i in range(day_of_year//10):
-    sum += random.randint(1, day_of_year//7)
-print (sum)
-
-max_value = (day_of_year // 10) * (day_of_year // 7)
-print(max_value)
 
 
 
